@@ -37,10 +37,10 @@ for (var i = 0; i < count; i++) {
   if ((i + 1) % numPerRow == 0) {
     // If last artboard in this row, reset x and calculate the y position of the next row
     x = 0;
-    y += maxHeight + 200;
+    y += maxHeight + 20;
     maxHeight = 0;
   } else {
-    x += [frame width] + 100;
+    x += [frame width] + 40;
   }
 }
 
